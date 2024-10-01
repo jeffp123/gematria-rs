@@ -40,7 +40,7 @@ use gematria_rs::GematriaContext;
 let gematria_context = GematriaContext::default();
 
 let value = gematria_context.calculate_value("שלום");
-println!("Gematria value: {}", value);
+println!("Gematria value: {:?}", value);
 ```
 
 > You can use the `gematria_rs::GematriaBuilder` to change the default settings for the context easily.
